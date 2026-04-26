@@ -12,7 +12,8 @@ CREATE TABLE [dbo].[NTM_Person](
 	[PersonID] [int] NOT NULL,
 	[FormattedName] [varchar](128) NOT NULL,
 	[SortName] [varchar](128) NULL,
-	[IsGuest] [boolean] NULL
+	[IsGuest] [boolean] NULL,
+	[CreateDate] [datetime] NULL
  CONSTRAINT [PK_NTM_Person] PRIMARY KEY CLUSTERED 
 (
 	[PersonID] ASC
